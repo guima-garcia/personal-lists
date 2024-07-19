@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2e2e2e;
+}
+
+.container {
+    background-color: #3a2d49;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a2d49;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #bb86fc;
+}
+
+.menu-bar {
+    background-color: #3a2d49;
+    color: #bb86fc;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-bar a:hover {
+    background-color: #bb86fc;
+    border-radius: 5px;
+}
+
+.grid-container {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(10, 140px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.grid-item {
+    width: 140px;
+    height: 210px;
+    background-color: #ccc;
+    /*border-radius: 15px; This is a single-line comment */
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
