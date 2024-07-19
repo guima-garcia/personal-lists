@@ -74,14 +74,14 @@ body {
     margin-top: 70px;
     margin-bottom: 10px;
     display: grid;
-    grid-template-columns: repeat(10, 140px);
+    grid-template-columns: repeat(17, 100px);
     gap: 10px;
     justify-content: center;
 }
 
 .grid-item {
-    width: 140px;
-    height: 210px;
+    width: 100px;
+    height: 150px;
     background-color: #ccc;
     /*border-radius: 15px; This is a single-line comment */
     overflow: hidden;
@@ -91,4 +91,94 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 450px){
+    .grid-container{
+        grid-template-columns: repeat(3, 100px);
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 560px){
+    .grid-container{
+        grid-template-columns: repeat(4, 100px);
+    }
+}
+
+@media only screen and (min-width: 561px) and (max-width: 670px){
+    .grid-container{
+        grid-template-columns: repeat(5, 100px);
+    }
+}
+
+@media only screen and (min-width: 671px) and (max-width: 780px){
+    .grid-container{
+        grid-template-columns: repeat(6, 100px);
+    }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 890px){
+    .grid-container{
+        grid-template-columns: repeat(7, 100px);
+    }
+}
+
+@media only screen and (min-width: 891px) and (max-width: 1000px){
+    .grid-container{
+        grid-template-columns: repeat(8, 100px);
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1110px){
+    .grid-container{
+        grid-template-columns: repeat(9, 100px);
+    }
+}
+
+@media only screen and (min-width: 1111px) and (max-width: 1220px){
+    .grid-container{
+        grid-template-columns: repeat(10, 100px);
+    }
+}
+
+@media only screen and (min-width: 1221px) and (max-width: 1330px){
+    .grid-container{
+        grid-template-columns: repeat(11, 100px);
+    }
+}
+
+@media only screen and (min-width: 1331px) and (max-width: 1440px){
+    .grid-container{
+        grid-template-columns: repeat(12, 100px);
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1550px){
+    .grid-container{
+        grid-template-columns: repeat(13, 100px);
+    }
+}
+
+@media only screen and (min-width: 1551px) and (max-width: 1660px){
+    .grid-container{
+        grid-template-columns: repeat(14, 100px);
+    }
+}
+
+@media only screen and (min-width: 1661px) and (max-width: 1770px){
+    .grid-container{
+        grid-template-columns: repeat(15, 100px);
+    }
+}
+
+@media only screen and (min-width: 1771px) and (max-width: 1880px){
+    .grid-container{
+        grid-template-columns: repeat(16, 100px);
+    }
+}
+
+@media only screen and (min-width: 1881px){
+    .grid-container{
+        grid-template-columns: repeat(17, 100px);
+    }
 }
