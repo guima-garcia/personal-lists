@@ -81,7 +81,7 @@ body {
 
 .grid-item {
     width: 100px;
-    height: 140px;
+    height: 133px;
     background-color: #ccc;
     /*border-radius: 15px; This is a single-line comment */
     overflow: hidden;
